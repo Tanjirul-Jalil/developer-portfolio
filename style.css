@@ -11,8 +11,32 @@ h1 {
     color: orange;
 }
 
-section {
+.section-style-1 {
     display: flex;
+    padding-bottom: 30px;
+}
+
+.section-style-2 {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+#experience-1 {
+    margin-left: 150px;
+    margin-right: 75px;
+    padding: 50px 100px;
+    box-shadow: 20px 20px 30px gray;
+    border-radius: 20px;
+    border-left: 5px solid blue;
+}
+
+#experience-2 {
+    margin-left: 75px;
+    margin-right: 150px;
+    padding: 50px 100px;
+    box-shadow: 20px 20px 30px gray;
+    border-radius: 20px;
+    border-left: 5px solid tomato;
 }
 
 #first-text {
@@ -37,13 +61,28 @@ section {
     border-radius: 5px;
 }
 
-.header-banner {
+#header-banner {
     background-image: url(images/header-banner.jpg);
     background-repeat: no-repeat;
 }
 
-.side-image-2 {
+#side-image-2 {
     background-image: url(images/side-image-2.jpg);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: bottom;
+}
+
+#side-image-1 {
+    background-image: url(images/side-image-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: bottom;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 20px 20px 30px gray;
 }
