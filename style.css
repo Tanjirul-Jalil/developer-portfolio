@@ -41,3 +41,9 @@ section {
     background-image: url(images/header-banner.jpg);
     background-repeat: no-repeat;
 }
+
+.side-image-2 {
+    background-image: url(images/side-image-2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
